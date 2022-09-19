@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cinestesia/static/css/main.ca43e694.css",
+    "main.js": "/cinestesia/static/js/main.5abc8911.js",
+    "index.html": "/cinestesia/index.html",
+    "main.ca43e694.css.map": "/cinestesia/static/css/main.ca43e694.css.map",
+    "main.5abc8911.js.map": "/cinestesia/static/js/main.5abc8911.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca43e694.css",
+    "static/js/main.5abc8911.js"
+  ]
+}
