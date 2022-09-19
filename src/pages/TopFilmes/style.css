@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    color: aliceblue;
+
+   
+    
+}
+
+
+.container-topfilmes{
+    border-radius: 10px;
+    display: flex;
+    align-items:flex-start; 
+    flex-direction: column;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    width: 19vw
+}
+
+img {
+    width: 19vw;
+    margin-right: 16px;
+    margin-bottom: 18px;
+    border-radius: 16px;
+    z-index: 1;
+}
