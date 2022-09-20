@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom'
 import './style.css'
 // import { useParams } from 'react-router-dom'
 
-const urlMost = 'https://api.themoviedb.org/3/discover/movie?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=en-US&'
+const urlMost = 'https://api.themoviedb.org/3/discover/movie?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=pt-BR&'
 
 
 function TopFilmes() {
@@ -50,7 +50,10 @@ function TopFilmes() {
               ))}>
 
       <p className='titulos' >{movieTop.title}</p>  
-      <img src={`https://image.tmdb.org/t/p/w500/${movieTop.backdrop_path}`} alt={movieTop.title}></img>
+      {/* <img src={`https://image.tmdb.org/t/p/w500/${movieTop.backdrop_path}`} alt={movieTop.title}></img> */}
+      <img src={`https://image.tmdb.org/t/p/w500/${movieTop.poster_path}`} alt="" />
+      <p className='overview'>{movieTop.tagline}</p>
+
 
       </div>
     

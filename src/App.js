@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Genero from './pages/Genero/index'
 import Detalhe from './pages/Detalhe/index';
 
+// import '../src/styleglobal.css'
 
 
 function App() {

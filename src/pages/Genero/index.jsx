@@ -4,6 +4,8 @@ import Main from '../../components/Main/index'
 import { useParams } from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
 
+import './style.css'
+
 
 
 const Genero = () => {
@@ -40,20 +42,21 @@ console.log(data)
 
   return (
 
-    <div>
+    <div className='genero'>
 
       <Main>
 
- <h1>Página Genero</h1>
 {generoFilme && generoFilme.map((genero) =>(
- 
-
-    <span key={genero.id}  onClick={(()=> handleRedirect(
-                history(`/detalhe/${genero.id}`)))}>
-        <h3>{genero.original_title}</h3>
+  
+    
+   <span className='card' key={genero.id}  onClick={(()=> handleRedirect(
+    history(`/detalhe/${genero.id}`)))}>
+          <p>{genero.title}</p>
+        {/* <h3>{genero.original_title}</h3> */}
+        
          <img src={`https://image.tmdb.org/t/p/w500/${genero.backdrop_path}`} alt={genero.title}></img>
       </span>
-
+     
 ))}
 </Main>
   

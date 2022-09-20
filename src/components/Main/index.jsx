@@ -8,21 +8,20 @@ import Footer from '../Footer'
 // import Principal from './components/Principal'
 
 
-
-
+import './style.css'
 
 
 const Main = (props) => {
   return (
 
 
-<div className='container-layout'>
+<div className='divizona' >
         <Navbar />
-        <div>
+        <div className='container-layout'>
         {props.children}
-       
+      
         </div>
-         {/* <Principal/> */}
+       
          <Footer /> 
 </div>
   )

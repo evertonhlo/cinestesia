@@ -15,6 +15,8 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 
+
+import './style.css'
 import ListItemText from '@mui/material/ListItemText';
 
 import {useNavigate} from 'react-router-dom'
@@ -27,12 +29,12 @@ const urlGenre = 'https://api.themoviedb.org/3/genre/movie/list?api_key=b42ed93b
 
 
   
-const drawerWidth = 240;
+const drawerWidth = 230;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
     flexGrow: 1,
-    padding: theme.spacing(3),
+    padding: theme.spacing(0),
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -119,7 +121,7 @@ export default function PersistentDrawerRight() {
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar>
-          <Typography variant="h4" noWrap sx={{ flexGrow:1 }} component="div">
+          <Typography variant="h3" noWrap sx={{ flexGrow:1 }} component="div">
            Filmes 
           </Typography>
           <IconButton

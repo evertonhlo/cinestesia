@@ -19,7 +19,7 @@ const Detalhe = () => {
 
   const getDetalhe = async (filme) => {
 
-       const urlDetalhes = `https://api.themoviedb.org/3/movie/${filme}?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=en-US`
+       const urlDetalhes = `https://api.themoviedb.org/3/movie/${filme}?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=pt-BR`
 
 
     const response = await fetch(urlDetalhes) ;
@@ -50,6 +50,8 @@ const Detalhe = () => {
      
         <h1>{pegaDetalhe.popularity}</h1>
         <p>{pegaDetalhe.overview}</p>
+        <p>{pegaDetalhe.release_date}</p>
+        <p>{pegaDetalhe.tagline}</p>
         <img src={`https://image.tmdb.org/t/p/w500/${pegaDetalhe.backdrop_path}`} alt={pegaDetalhe.title}/> 
       </span>
     
