@@ -21,6 +21,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 import {useNavigate} from 'react-router-dom'
 
+import './style.css'
 
 import {useState, useEffect} from 'react'
 
@@ -120,9 +121,9 @@ export default function PersistentDrawerRight() {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
-        <Toolbar>
-          <Typography variant="h3" noWrap sx={{ flexGrow:1 }} component="div">
-           Filmes 
+        <Toolbar className ='toolbar'>
+          <Typography className= 'logo' variant="h4" noWrap sx={{ flexGrow:1 }} component="div">
+           CINESTESIA
           </Typography>
           <IconButton
             color="inherit"
@@ -158,9 +159,9 @@ export default function PersistentDrawerRight() {
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <List>
+        <List className='lateral'>
           {genreMovies && genreMovies.map((genre) => (
-            <ListItem key={genre.id} disablePadding>
+            <ListItem className ='item-lateral' key={genre.id} disablePadding>
               <ListItemButton  onClick={()=> handleRedirect(
                 history(`/genero/${genre.id}`)
               )}>

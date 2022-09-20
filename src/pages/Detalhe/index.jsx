@@ -7,7 +7,7 @@ import Main from '../../components/Main'
 
 
 
-
+import './style.css'
 
 const Detalhe = () => {
 
@@ -45,14 +45,14 @@ const Detalhe = () => {
 
     <h2>Página Detalhe </h2>
  
-       <span key= {pegaDetalhe.id}>
-        <h2 >{pegaDetalhe.original_title}</h2>
+       <span className='card' key= {pegaDetalhe.id}>
+        <h1 className='card-title'>{pegaDetalhe.original_title}</h1>
      
-        <h1>{pegaDetalhe.popularity}</h1>
-        <p>{pegaDetalhe.overview}</p>
-        <p>{pegaDetalhe.release_date}</p>
-        <p>{pegaDetalhe.tagline}</p>
-        <img src={`https://image.tmdb.org/t/p/w500/${pegaDetalhe.backdrop_path}`} alt={pegaDetalhe.title}/> 
+        <h1 className='card-popularity'>{pegaDetalhe.popularity}</h1>
+        <p className='card-overview'>{pegaDetalhe.overview}</p>
+        <p className='card-release'>{pegaDetalhe.release_date}</p>
+        <p className='card-tagline'>{pegaDetalhe.tagline}</p>
+        <img className='card-image'src={`https://image.tmdb.org/t/p/w500/${pegaDetalhe.backdrop_path}`} alt={pegaDetalhe.title}/> 
       </span>
     
 

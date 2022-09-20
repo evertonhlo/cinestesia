@@ -1,0 +1,21 @@
+.toolbar{
+    background-color:#96CCD9;
+    color: #260801;
+    height: 60px;
+    font-style: normal;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+
+
+.item-lateral:hover{
+    background-color:#96CCD9 ;
+    cursor: pointer;
+}

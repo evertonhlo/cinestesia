@@ -48,13 +48,18 @@ function TopFilmes() {
              onClick={(()=> handleRedirect(
                 history(`/detalhe/${movieTop.id}`)
               ))}>
+      <span className='textos'>
 
-      <p className='titulos' >{movieTop.title}</p>  
+      {/* <p className='titulos' >{movieTop.title}</p>  */}
+      {/* <p>{movieTop.release_date}</p> 
+      <p>{movieTop.original_language}</p>  */}
+      </span>
       {/* <img src={`https://image.tmdb.org/t/p/w500/${movieTop.backdrop_path}`} alt={movieTop.title}></img> */}
-      <img src={`https://image.tmdb.org/t/p/w500/${movieTop.poster_path}`} alt="" />
+      <img className= 'posters' src={`https://image.tmdb.org/t/p/w500/${movieTop.poster_path}`} alt="" />
       <p className='overview'>{movieTop.tagline}</p>
 
 
+      {/* <div className='fundo'></div> */}
       </div>
     
      
