@@ -1,20 +1,20 @@
 .container-topfilmes{
  
     display: flex;
-    align-items:flex-start; 
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center; 
+    flex-direction: row;
     margin: 0;
     padding: 16px;
-   color:#96CCD9;
-    margin-left: 16px;
+    color:#96CCD9;
+    margin-left: 0px;
     margin-top: 8px;
     border-radius: 12px;
    
 }
-.container{
+.container-top{
     display: flex;
-    align-items: center;
-    justify-content: center;
+   flex-direction: row;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #401D10;
@@ -47,18 +47,18 @@
     background-color: black;
 }
 
-.textos{
+.textos-top{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-.posters{
+.posters-top{
     /* position:absolute; */
-    width: 26vw;
+    width: 27vw;
     margin-right: 16px;
     box-shadow: 12px 7px 10px #260801;
     border-radius: 16px;
-    z-index: 23;
+    z-index: 3;
 }
 
 .posters:hover{
@@ -139,4 +139,30 @@
 
 .Vintage-old-movie-camera-with-copy-space-5-hsla {
     color: hsla(11, 96, 7, 1);
+}
+
+
+@media screen and (max-width: 500px) {
+    .container-topfilmes {
+           display: flex;
+           flex-wrap: wrap;
+           align-items:center;
+           flex-direction: row;
+           margin: 0;
+           padding: 4px;
+       
+           margin-left: 16px;
+           margin-top: 14px;
+           border-radius: 6px;
+    }
+
+    .posters-top {
+        /* position:absolute; */
+        width: 40vw;
+    
+        margin-right: 0px;
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 16px;
+        z-index: 3;
+    }
 }
