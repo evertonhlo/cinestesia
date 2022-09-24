@@ -33,7 +33,7 @@
     color:  #96CCD9;
     align-items: center;
 
-    position: absolute;
+   
     font-weight: 100; 
    
 }
@@ -96,7 +96,7 @@
         
         font-size: 30px; 
         width: 90%;
-        height: 100vh;
+       
         flex-wrap: wrap;
         color: #96CCD9;
         font-weight: 900;
