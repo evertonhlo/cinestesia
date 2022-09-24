@@ -1,10 +1,12 @@
 import React from 'react'
+import './style.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='container-footer'>
 
-      <h1>FOOTER</h1>
+      <h5>Feito por Everton Oliveira</h5>
+      <h6>2022</h6>
     </div>
   )
 }
