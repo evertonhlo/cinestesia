@@ -1,0 +1,118 @@
+
+.genero{
+    display: flex;
+    flex-direction: row;
+    background-color: #401D10;
+    width: 100vw;
+    border: 4px solid white;
+    align-items: center;
+}
+
+.container-genero{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A3BFB7;
+    width: 40vw;
+    margin: 28px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    
+} 
+
+.imagem{
+    margin-bottom: 8px;
+}
+
+.titulo-generos{
+    display: flex;
+   font-size: 52px;
+  color: #A3BFB7;
+   width: 100vw;
+   height: 1vh;
+   align-items: center;
+   justify-content: center;
+  
+   
+}
+
+/* celular */
+@media screen and (max-width: 650px){
+
+.genero{
+    display: flex;
+    flex-direction: column;
+    background-color: #401D10;
+    width: 100vw;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.container-genero {
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #A3BFB7;
+    width: 95vw;
+    margin: 28px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+}
+
+.imagem {
+    width: 90vw;
+}
+}
+
+/* tablet */
+@media screen and (max-width: 1000px) {
+
+    .genero {
+        display: flex;
+        flex-direction: column;
+        background-color: #401D10;
+        width: 100vw;
+        border: 1px solid white;
+        align-items: center;
+    }
+
+    .container-genero {
+        display: flex;
+        flex-direction: column;
+        width: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #A3BFB7;
+        width: 95vw;
+        margin: 28px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+
+    }
+
+    .imagem {
+        width: 90vw;
+    }
+}

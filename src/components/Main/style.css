@@ -8,23 +8,16 @@
     margin: 0;
 }
 
-.container_layout{
+.container-layout{
     display: flex;
-    flex-direction: column;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: black;
+   
     padding: 10px;
     margin: 20px;
     
 }
 
-.card{
-    display: inline-flex;
-    flex-direction: column;
-    background-color: red;
- 
-    align-items: center;
-    justify-content: center;
-    
-}

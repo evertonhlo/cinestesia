@@ -43,18 +43,18 @@ console.log(data)
   return (
 
     <div className='genero'>
-
-      <Main>
-
+      
+      <Main className='container-genero'>
+        <h1 className='titulo-generos'>  </h1>
 {generoFilme && generoFilme.map((genero) =>(
   
     
    <span className='card' key={genero.id}  onClick={(()=> handleRedirect(
     history(`/detalhe/${genero.id}`)))}>
-          <p>{genero.title}</p>
-        {/* <h3>{genero.original_title}</h3> */}
+          {/* <p>{genero.title}</p> */}
+        <h3>{genero.title}</h3>
         
-         <img src={`https://image.tmdb.org/t/p/w500/${genero.backdrop_path}`} alt={genero.title}></img>
+         <img className='imagem' src={`https://image.tmdb.org/t/p/w500/${genero.backdrop_path}`} alt={genero.title}></img>
       </span>
      
 ))}
