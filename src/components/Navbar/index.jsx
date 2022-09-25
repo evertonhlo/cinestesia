@@ -122,7 +122,9 @@ export default function PersistentDrawerRight() {
       <CssBaseline />
       <AppBar position="fixed" open={open}>
         <Toolbar className ='toolbar'>
-          <Typography className= 'logo' variant="h4" noWrap sx={{ flexGrow:1 }} component="div">
+          <Typography className= 'logo' variant="h4" noWrap sx={{ flexGrow:1 }} onClick ={()=> handleRedirect(
+                history(`/`)
+              )} component="div">
            CINESTESIA
           </Typography>
           <IconButton
