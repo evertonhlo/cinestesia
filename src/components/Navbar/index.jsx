@@ -163,11 +163,12 @@ export default function PersistentDrawerRight() {
         <Divider />
         <List className='lateral'>
           {genreMovies && genreMovies.map((genre) => (
+            
             <ListItem className ='item-lateral' key={genre.id} disablePadding>
               <ListItemButton  onClick={()=> handleRedirect(
                 history(`/genero/${genre.id}`)
               )}>
-           
+                  
                 <ListItemText primary={genre.name} /> 
               </ListItemButton>
             </ListItem>
@@ -176,6 +177,7 @@ export default function PersistentDrawerRight() {
         <Divider />
       
       </Drawer>
+      
     </Box>
   );
 }

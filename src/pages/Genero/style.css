@@ -2,10 +2,13 @@
 .genero{
     display: flex;
     flex-direction: row;
+
     background-color: #401D10;
     width: 100vw;
-    border: 4px solid white;
+    border: 10px solid rgb(97, 194, 120);
     align-items: center;
+    margin-top: 60px;
+
 }
 
 .container-genero{
@@ -21,6 +24,7 @@
     background-color: #A3BFB7;
     width: 40vw;
     margin: 28px;
+    font-size:18px ;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
@@ -34,17 +38,26 @@
 .titulo-generos{
     display: flex;
    font-size: 52px;
-  color: #A3BFB7;
+    color: #A3BFB7;
    width: 100vw;
-   height: 1vh;
    align-items: center;
    justify-content: center;
+   z-index: 3;
   
    
 }
 
+.titulo-filme{
+    width: 100%;
+    padding: 8px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* celular */
-@media screen and (max-width: 650px){
+@media screen and (max-width: 500px){
 
 .genero{
     display: flex;

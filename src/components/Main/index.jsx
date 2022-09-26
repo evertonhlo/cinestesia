@@ -5,7 +5,7 @@ import React from 'react'
 
 import Navbar from '../Navbar'
 import Footer from '../Footer'
-// import Principal from './components/Principal'
+
 
 
 import './style.css'
@@ -17,6 +17,7 @@ const Main = (props) => {
 
 <div className='divizona' >
         <Navbar />
+      
         <div className='container-layout'>
         {props.children}
       
