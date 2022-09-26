@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import {useNavigate} from 'react-router-dom'
 
 import './style.css'
-import Titulo from '../../components/TituloGenero'
+
 
  
 
@@ -48,9 +48,10 @@ console.log(data.genres)
   return (
 
     <div className='genero'>
+      
         <Main className='container-genero'>
        
-         <Titulo primary={props.name}/>
+         
         {generoFilme && generoFilme.map((genero) =>(
   
     

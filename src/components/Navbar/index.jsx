@@ -23,6 +23,7 @@ import {useNavigate} from 'react-router-dom'
 
 import './style.css'
 
+
 import {useState, useEffect} from 'react'
 
 const urlGenre = 'https://api.themoviedb.org/3/genre/movie/list?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=pt-BR'
@@ -140,7 +141,7 @@ export default function PersistentDrawerRight() {
       </AppBar>
       <Main open={open}>
         <DrawerHeader />
-      
+     
        
       </Main>
       <Drawer
@@ -168,6 +169,7 @@ export default function PersistentDrawerRight() {
               <ListItemButton  onClick={()=> handleRedirect(
                 history(`/genero/${genre.id}`)
               )}>
+                
                   
                 <ListItemText primary={genre.name} /> 
               </ListItemButton>

@@ -22,12 +22,12 @@ const Detalhe = () => {
        const urlDetalhes = `https://api.themoviedb.org/3/movie/${filme}?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=pt-BR`
 
 
-    const response = await fetch(urlDetalhes) ;
+    const response = await fetch(urlDetalhes) 
     const data = await response.json()
     
     setPegaDetalhe(data)
     console.log(data)
-    }; 
+    }
     
 
     useEffect(() =>{
