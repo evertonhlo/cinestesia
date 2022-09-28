@@ -1,105 +1,172 @@
 .container-detalhe{
     background-color: #401D10;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 
-/* 
+
 .card-overview{
-    width: 90vw;
-    height: 80vh;
-    padding: 36px;
-    font-weight: auto;
-    font-size: 28px;
-    background-color:#A3BFB7;
-    opacity: 0.6;
-    position: absolute;
-   
-    border-radius: 18px;
-    z-index: 2;
-    margin-left: 60px;
-    margin-bottom: 400px;
-    
-}  */
+   display: flex;
+}   
 
 .card-title{
-    font-size: 18px;  
-   
-    width: 100vw;
+    font-size: 18px;   
+    width: 90vw;
+    /* height: 10vh; */
     flex-wrap: wrap;
     color:  #96CCD9;
     align-items: center;
-
-   
-    font-weight: 100; 
+     font-weight: 100;
+    
    
 }
 .card-detalhe{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    height:100vh;
 }
 
 .card-image{
-    width: 90vh;
+    width: 95%;
    
     box-shadow: 12px 7px 10px #260801;
     border-radius: 18px;
-    margin-left: 60px;
+   justify-self: center;
+   align-self: center;
     opacity: 0.9;
 }
 
+/*  */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .container-detalhe {
-        height: 100vh;
-        width: 100vw; 
         display: flex;
+        height: 100vh;
+        width: 100vw;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        padding: 8px 8px 80px 0px;
+      
+
     }
 
     .card-detalhe {
         display: flex;
-        align-items: column;
-      
         width: 100vw;
-        height: 80vh;
-       align-items: center;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .card-image {
+        width: 96vw;
+        box-shadow: 0px 0px 0px #260801;
+        border-radius: 18px 18px 0 0;
+        opacity: 1;
+        z-index: 1;
+        padding: 0 8px;
+
+    }
+
+    .card-overview {
+
+        font-size: 18px;
+        font-weight: 700;
+        width: 94%;
+        margin: 0;
+        display: flex;
+       
+        justify-content: center;
+        background-color: #96CCD9;
+        border-radius: 0 0 8px 8px;
+        padding: 30px 18px;
+
+
+    }
+
+    .card-title {
+        display: flex;
+        font-size: 30px;
+        width: 95%;
+        height: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        color: #96CCD9;
+        font-weight: 900;
+        margin-left: 8px;
+
+    }
+}
+/*  */
+@media screen and (max-width: 500px) {
+    .container-detalhe {
+        display: flex;
+        height: 100vh;
+        width: 100vw; 
+        flex-direction: column;
+        padding: 20px 8px 8px 0px;
+        margin-top: 0;
+       
+    }
+
+    .card-detalhe {
+        display: flex;
+        
+        width: 100vw;
+        height: 100%;
+    
+        
+
         
     }
 
     .card-image {
-        width: 95vw;
- 
-        box-shadow: 12px 7px 10px #260801;
-        border-radius: 18px;
-        margin-left: 4px;
+        width: 96vw;
+        box-shadow: 0px 0px 0px #260801;
+        border-radius: 18px 18px 0 0;
         opacity: 1;
+        z-index: 1;
+        padding: 0 8px;
+      
     }
 
     .card-overview{
+        
         font-size: 18px;
         font-weight: 700;
-        width:90%;
+        width:91%;
+        margin: 0;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        margin-left:32px;
+        background-color: #96CCD9;
+        border-radius:0 0 8px 8px; 
+        padding: 32px 18px;
+      
+        
     }
 
     .card-title {
-        
+        display: flex;
         font-size: 30px; 
-        width: 90%;
-       
+        width: 98%;
+        height: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-wrap: wrap;
         color: #96CCD9;
         font-weight: 900;
+        margin-left: 8px;
 
     }
 }

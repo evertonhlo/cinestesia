@@ -9,13 +9,14 @@
     width: 100%;
     height: 100%;
     padding: 28px;
+    padding-top: 300%;
     
 }
 
 .container-topfilmes{
     display: flex;
     width: 27%;
-    margin-top: 18px;
+   
     justify-content: center;
 }
 
@@ -34,8 +35,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height:68vh;
-    margin-bottom: 16px;
+    height:66vh;
+    margin-bottom: 56px;
     margin-top: 8px;
     margin: 6px;
     box-shadow: 12px 7px 10px #260801;
@@ -121,6 +122,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: space;
+        padding-top: 200%
 
     }
 
@@ -140,6 +142,7 @@
         border-radius: 16px;
         z-index: 3;
     }
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -148,7 +151,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: space;
+        padding-top: 520%;
 
     }
 
@@ -156,6 +159,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 35vw;
+        
 
     }
 

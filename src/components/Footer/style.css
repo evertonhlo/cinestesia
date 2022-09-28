@@ -9,3 +9,13 @@
    
   
 }
+
+@media screen and (max-width: 500px) {
+      .container-footer {
+        display: flex;
+        background-color:#96CCD9;
+        height: 100%;
+      }
+      
+    
+}
