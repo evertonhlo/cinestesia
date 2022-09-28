@@ -1,42 +1,24 @@
-.container-topfilmes{
- 
-    display: flex;
-    flex-wrap: wrap;
-    align-items:center; 
-    flex-direction: row;
-    margin: 0;
-    padding: 16px;
-    color:#96CCD9;
-    margin-left: 0px;
-    margin-top: 8px;
-    border-radius: 12px;
-   
-}
 .container-top{
     display: flex;
-   flex-direction: row;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space;
+    justify-content: space-between;
     background-color: #401D10;
     color: #260801;
-    margin: 0;
-    border: 0;
-    padding:0;
-    width: 100vw;
-
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+    
 }
 
-
-
-.titulos {
-    align-items: center;
-    font-size: 1.5rem;
-    font-family: 'roboto' sans-serif;
-    font-weight: 800;
-    align-items: center;
+.container-topfilmes{
     display: flex;
-    width: 20vw;
+    width: 27%;
+    margin-top: 18px;
+    justify-content: center;
 }
+
 .overview {
     font-size: 16px;
     font-family: 'roboto' sans-serif;
@@ -47,36 +29,26 @@
     background-color: black;
 }
 
-.textos-top{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
+
 .posters-top{
-    /* position:absolute; */
-    width: 27vw;
-    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:68vh;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    margin: 6px;
     box-shadow: 12px 7px 10px #260801;
     border-radius: 16px;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 .posters:hover{
-    transform: scale(1.07);
+    transform: scale(1.);
     transition:0.3s;
     opacity: 3;
 }
-/* .fundo{
-    width: 29vw;
-    height: 80vh;
-    background-color: #A3BFB7;
-    border-radius: 18px;
-    margin-bottom: 6px;
-    z-index:1;
-    position: relative;
-   
-   
-} */
+
 
 /* Color Theme Swatches in Hex */
 .Vintage-old-movie-camera-with-copy-space-1-hex {
@@ -142,25 +114,56 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: space;
+
+    }
+
     .container-topfilmes {
-           display: flex;
-           flex-wrap: wrap;
-           align-items:center;
-           flex-direction: row;
-           margin: 0;
-           padding: 4px;
-       
-           margin-left: 16px;
-           margin-top: 14px;
-           border-radius: 6px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 29vw;
+
     }
 
     .posters-top {
         /* position:absolute; */
-        width: 40vw;
-    
-        margin-right: 0px;
+        display: flex;
+        height: 30vh;
+
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 16px;
+        z-index: 3;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: space;
+
+    }
+
+    .container-topfilmes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 35vw;
+
+    }
+
+    .posters-top {
+        /* position:absolute; */
+        display: flex;
+        height: 30vh;
+
         box-shadow: 12px 7px 10px #260801;
         border-radius: 16px;
         z-index: 3;
