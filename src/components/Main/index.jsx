@@ -18,8 +18,8 @@ const Main = (props) => {
 <div className='divizona' >
         <Navbar />
       
-        <div className='container-layout'>
-        {props.children}
+          <div className='container-layout'>
+               {props.children}
       
         </div>
        
