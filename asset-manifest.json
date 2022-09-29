@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cinestesia/static/css/main.eace6ad6.css",
+    "main.css": "/cinestesia/static/css/main.90d931fb.css",
     "main.js": "/cinestesia/static/js/main.b9d757c4.js",
     "index.html": "/cinestesia/index.html",
-    "main.eace6ad6.css.map": "/cinestesia/static/css/main.eace6ad6.css.map",
+    "main.90d931fb.css.map": "/cinestesia/static/css/main.90d931fb.css.map",
     "main.b9d757c4.js.map": "/cinestesia/static/js/main.b9d757c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.eace6ad6.css",
+    "static/css/main.90d931fb.css",
     "static/js/main.b9d757c4.js"
   ]
 }
