@@ -6,13 +6,15 @@
         flex-wrap: wrap;
         background-color: #401D10;
         align-items: center;
-    
+    justify-content: center;
        
     }
 
     .container-topfilmes {
         display: flex;
         width: 50vw;
+           align-items: center;
+           justify-content: center;
         
       
     }
@@ -70,16 +72,16 @@
         flex-wrap: wrap;
         background-color: #401D10;
         align-items: center;
-       
-        justify-content: space-between;
+         justify-content: center;
         
     }
 
     .container-topfilmes {
         display: flex;
         width: 30vw;
-        
         margin-top: 2%;
+        align-items: center;
+        justify-content: center;
     }
 
     .posters-top {
@@ -103,16 +105,17 @@
         flex-wrap: wrap;
         background-color: #401D10;
         align-items: center;
+        justify-content: center;
         margin: 0;
-        justify-content: space-between;
         padding: 1%;
     }
 
     .container-topfilmes {
         display: flex;
         width: 31vw;
-     
         margin-top: 2%;
+           align-items: center;
+           justify-content: center;
     }
 
     .posters-top {
@@ -136,15 +139,17 @@
         background-color: #401D10;
         align-items: center;
         margin: 0;
-        justify-content: space-between;
+        justify-content: center;
      
     }
 
     .container-topfilmes {
         display: flex;
         width: 31vw;
-     
         margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+     
     }
 
     .posters-top {
