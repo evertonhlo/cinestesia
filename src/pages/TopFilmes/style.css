@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
 
     .container-top {
         display: flex;
@@ -6,49 +6,52 @@
         flex-wrap: wrap;
         background-color: #401D10;
         align-items: center;
-        justify-content: space-between;
-        margin: 0;
+    
+       
     }
 
     .container-topfilmes {
         display: flex;
-        width: 48vw;
-        margin:1%;
-        margin-top:4%; 
+        width: 50vw;
+        
+      
     }
 
     .posters-top {
-        height: 29vh;
+        height: 30vh;
         box-shadow: 12px 7px 10px #260801;
         border-radius: 24px;
         margin-left: 3%;
         z-index: 3;
+        margin-top: 5%;
        
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
     .container-top {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         background-color: #401D10;
-        align-items: center;
-        margin: 0;
-        justify-content: space-between;
         padding: 1%;
+        align-items: center;
+        justify-content: center;
+        
     }
 
     .container-topfilmes {
         display: flex;
-        width: 29vw;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
         margin: 1%;
         margin-top: 2%;
     }
 
     .posters-top {
-        height: 60vh;
+        height: 35vh;
         box-shadow: 12px 7px 10px #260801;
         border-radius: 32px;
         margin-left: 5%;
@@ -58,8 +61,41 @@
 
     }
 }
+ 
+@media screen and  (min-width: 768px) and (max-width: 992px)  {
 
-@media screen and (min-width: 1281px)  {
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #401D10;
+        align-items: center;
+       
+        justify-content: space-between;
+        
+    }
+
+    .container-topfilmes {
+        display: flex;
+        width: 30vw;
+        
+        margin-top: 2%;
+    }
+
+    .posters-top {
+        height: 42vh;
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 32px;
+
+        
+
+        z-index: 3;
+
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 
     .container-top {
         display: flex;
@@ -74,25 +110,112 @@
 
     .container-topfilmes {
         display: flex;
-        width: 40vw;
-        margin: 1%;
+        width: 31vw;
+     
         margin-top: 2%;
     }
 
     .posters-top {
-        height: 90vh;
+        height: 52vh;
         box-shadow: 12px 7px 10px #260801;
         border-radius: 32px;
-        margin-left: 5%;
-        margin-right: 2%;
+      
+      
 
         z-index: 3;
 
     }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #401D10;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+     
+    }
+
+    .container-topfilmes {
+        display: flex;
+        width: 31vw;
+     
+        margin-top: 2%;
+    }
+
+    .posters-top {
+        height: 68vh;
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 32px;
+     
+
+        z-index: 3;
+
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1900px) {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #401D10;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+
+    }
+
+    .container-topfilmes {
+        display: flex;
+        width: 31vw;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+
+    .posters-top {
+        height: 78vh;
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 32px;
 
 
+        z-index: 3;
+
+    }
+}
+
+@media screen and (min-width: 1900px)  {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #401D10;
+        align-items: center;
+        margin: 0;
+        justify-content: space-between;
+
+    }
+
+    .container-topfilmes {
+        display: flex;
+        width: 31vw;
+        margin-left: 0.5%;
+        margin-top: 2%;
+    }
+
+    .posters-top {
+        height: 79vh;
+        box-shadow: 12px 7px 10px #260801;
+        border-radius: 32px;
 
 
+        z-index: 3;
 
+    }
+}
