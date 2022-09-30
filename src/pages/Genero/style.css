@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   padding: 6%;
     background-color: #401D10;
-    height: 100vh;
+    height: 100%;
     align-items: center;  
 }
 .container-genero {
