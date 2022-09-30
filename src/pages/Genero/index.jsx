@@ -55,8 +55,8 @@ console.log(data.genres)
         {generoFilme && generoFilme.map((genero) =>(
   
     
-   <span className='card' key={genero.id}  onClick={(()=> handleRedirect(
-    history(`/detalhe/${genero.id}`)))}>
+         <span className='card' key={genero.id}  onClick={(()=> handleRedirect(
+          history(`/detalhe/${genero.id}`)))}>
           {/* <p>{genero.title}</p> */}
         <h3 className='titulo-filme'>{genero.title}</h3>
         

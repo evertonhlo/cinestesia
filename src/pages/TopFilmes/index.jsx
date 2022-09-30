@@ -6,7 +6,8 @@ import './style.css'
 
 // const urlMost = 'https://api.themoviedb.org/3/discover/movie?api_key=b42ed93ba1c3eaf092244ca3270f8fff&language=pt-BR&'
 
-const urlMost = 'https://api.themoviedb.org/3/trending/all/day?api_key=b42ed93ba1c3eaf092244ca3270f8fff'
+ const urlMost = 'https://api.themoviedb.org/3/trending/movie/day?api_key=b42ed93ba1c3eaf092244ca3270f8fff'
+// const urlMost = 'https://api.themoviedb.org/3/movie/latest?api_key=b42ed93ba1c3eaf092244ca3270f8fff'
 
 
 function TopFilmes() {

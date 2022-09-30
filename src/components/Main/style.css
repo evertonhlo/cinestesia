@@ -1,23 +1,28 @@
 
-@media screen and (max-width: 500px) {
+ 
     .divizona {
         display: flex;
        margin: 0;
        padding: 0;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         flex-direction: column;
+       
+        
 
     }
 
     .container-layout {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: 100vw;
-        margin: 0;
-        padding: 0;
+        height: 100%;
+        margin-right: 0;
+        padding: 0%;
+         background-color: #401D10;
 
     }
 
 
-}
 
