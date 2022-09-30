@@ -174,7 +174,7 @@ export default function PersistentDrawerRight() {
                 <ListItemText primary={genre.name} /> 
               </ListItemButton>
             </ListItem>
-          ))})
+          ))}
         </List>
         <Divider />
       
