@@ -16,11 +16,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         height: 100%;
         margin-right: 0;
         padding: 0%;
-         background-color: #401D10;
+         /* background-color: #401D10; */
 
     }
 

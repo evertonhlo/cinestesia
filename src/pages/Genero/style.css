@@ -2,8 +2,9 @@
     display: flex;
   flex-direction: row;
   width: 100vw;
+ 
   flex-wrap: wrap;
-  padding: 6%;
+  
     background-color: #401D10;
     height: 100%;
     align-items: center;  
@@ -15,7 +16,7 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
-    margin-right: 2%;
+  
 }
 
 
